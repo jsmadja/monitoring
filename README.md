@@ -7,6 +7,8 @@ mvn clean jetty:run
 
 // déploiement de l'application sur deux serveurs distincts
 deploiement sur ec2
+ssh -i jsmadjakey.pem root@107.22.192.213
+
 affichage de l'application sur ec2
 deploiement sur heroku
 affichage de l'application sur heroku
