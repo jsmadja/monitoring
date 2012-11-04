@@ -14,10 +14,13 @@ http://107.22.192.213:8080/org.springframework.samples.petclinic/
 
 deploiement sur heroku
 ======================
-affichage de l'application sur heroku
+heroku login
+
 
 // configuration de monitis
 creation d'un monitor ec2
+http://107.22.192.213:8080/org.springframework.samples.petclinic/vets
+
 creation d'un moniteur heroku
 
 // configuration de javamelody
