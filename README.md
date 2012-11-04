@@ -24,6 +24,31 @@ http://107.22.192.213:8080/org.springframework.samples.petclinic/vets
 creation d'un moniteur heroku
 
 // configuration de javamelody
+
+Dans le pom.xml
+
+  	<javamelody-version>1.41.0</javamelody-version>
+
+<dependency>
+  		<groupId>net.bull.javamelody</groupId>
+			<artifactId>javamelody-core</artifactId>
+			<version>${javamelody-version}</version>
+		</dependency>
+
+Dans le web.xml
+
+<filter>
+                <filter-name>monitoring</filter-name>
+                <filter-class>net.bull.javamelody.MonitoringFilter</filter-class>
+        </filter>
+        <filter-mapping>
+                <filter-name>monitoring</filter-name>
+                <url-pattern>/*</url-pattern>
+        </filter-mapping>
+        <listener>
+                <listener-class>net.bull.javamelody.SessionListener</listener-class>
+        </listener>
+
 // affichage de javamelody
 
 // un ptit tour sur monitis pour inspecter les chiffres obtenus
