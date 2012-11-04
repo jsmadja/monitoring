@@ -1,5 +1,7 @@
 package org.springframework.samples.petclinic;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Simple JavaBean domain object representing an person.
  *
@@ -12,7 +14,12 @@ public class Person extends BaseEntity {
 	private String lastName;
 
 	public String getFirstName() {
-		return this.firstName;
+        try {
+            TimeUnit.MILLISECONDS.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return this.firstName;
 	}
 
 	public void setFirstName(String firstName) {
