@@ -5,12 +5,15 @@ git clone git@github.com:jsmadja/monitoring.git
 
 mvn clean jetty:run
 
-// déploiement de l'application sur deux serveurs distincts
 deploiement sur ec2
+===================
 ssh -i jsmadjakey.pem root@107.22.192.213
+git clone git://github.com/jsmadja/monitoring.git
+mvn clean jetty:run
+http://107.22.192.213:8080/org.springframework.samples.petclinic/
 
-affichage de l'application sur ec2
 deploiement sur heroku
+======================
 affichage de l'application sur heroku
 
 // configuration de monitis
