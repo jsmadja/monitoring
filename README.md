@@ -12,18 +12,13 @@ git clone git://github.com/jsmadja/monitoring.git
 mvn clean jetty:run
 http://107.22.192.213:8080/org.springframework.samples.petclinic/
 
-deploiement sur heroku
-======================
-heroku login
-
-
-// configuration de monitis
+configuration de monitis
+========================
 creation d'un monitor ec2
 http://107.22.192.213:8080/org.springframework.samples.petclinic/vets
 
-creation d'un moniteur heroku
-
-// configuration de javamelody
+configuration de javamelody
+===========================
 
 Dans le pom.xml
 
@@ -52,11 +47,13 @@ Dans le web.xml
 Dans applicationContext-hibernate.xml
 <prop key="hibernate.jdbc.factory_class">net.bull.javamelody.HibernateBatcherFactory</prop>
 
+Instant demo
+============
 // affichage de javamelody
-
 // un ptit tour sur monitis pour inspecter les chiffres obtenus
 
-// ajout d une regression sur les performances
+Ajout d une regression sur les performances
+===========================================
 // commit
 // push
 // deploy sur ec2
@@ -65,20 +62,33 @@ Dans applicationContext-hibernate.xml
 
 // constatation de la regression de perf sur monitis
 
-// configuration d'AspectJ
+Configuration d'AspectJ
+=======================
+
+
 // deploy sur ec2
 // etude des logs pour voir d ou vient le probleme
 
-// correction du probleme
+Correction du probleme
+======================
+
 // commit
 // push
 // deploy sur ec2
 
-// présentation de javamelody en détail
+Instant demo
+============
+Présentation de javamelody en détail
 
-// constatation de la correction de la regression
 
+Constatation de la correction de la regression
+==============================================
+
+Instant demo
+============
 // presentation monitorus
 // exemple de prix de monitis
 
-// question / réponse
+
+Questions / Réponses
+====================
