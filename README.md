@@ -1,9 +1,10 @@
 monitoring
 ==========
 
-git clone git@github.com:jsmadja/monitoring.git
+    git clone git@github.com:jsmadja/monitoring.git
 
-mvn clean tomcat:run
+    mvn clean tomcat:run
+
 http://localhost:8080/org.springframework.samples.petclinic/
 
 deploiement sur ec2
@@ -81,7 +82,9 @@ Configuration d'AspectJ
 =======================
 
 Dans le pom.xml
+
 - Dépendance
+
     <dependency>
         <groupId>org.aspectj</groupId>
         <artifactId>aspectjrt</artifactId>
@@ -89,6 +92,7 @@ Dans le pom.xml
     </dependency>
 
 - Plugin
+
     <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>aspectj-maven-plugin</artifactId>
