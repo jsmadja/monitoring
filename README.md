@@ -49,6 +49,7 @@ Dans le web.xml
         </listener>
 
 Dans applicationContext-hibernate.xml
+
     <prop key="hibernate.jdbc.factory_class">net.bull.javamelody.HibernateBatcherFactory</prop>
 
 Instant demo
