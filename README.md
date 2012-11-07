@@ -9,7 +9,7 @@ http://localhost:8080/org.springframework.samples.petclinic/
 
 deploiement sur ec2
 ===================
-    ssh -i jsmadjakey.pem root@107.22.192.213
+    ssh -i jsmadjakey.pem ubuntu@107.22.192.213
     git clone git://github.com/jsmadja/monitoring.git
     mvn clean tomcat:run
 
