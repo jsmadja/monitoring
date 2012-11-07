@@ -13,13 +13,13 @@ deploiement sur ec2
     git clone git://github.com/jsmadja/monitoring.git
     mvn clean tomcat:run
 
-http://107.22.192.213:8080/org.springframework.samples.petclinic/
+http://ec2-23-22-208-47.compute-1.amazonaws.com:8080/org.springframework.samples.petclinic/
 
 configuration de monitis
 ========================
 creation d'un monitor ec2
 
-http://107.22.192.213:8080/org.springframework.samples.petclinic/vets
+http://ec2-23-22-208-47.compute-1.amazonaws.com:8080/org.springframework.samples.petclinic/vets
 
 configuration de javamelody
 ===========================
