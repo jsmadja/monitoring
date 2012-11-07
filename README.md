@@ -55,7 +55,6 @@ Dans applicationContext-hibernate.xml
 Instant demo
 ============
 // affichage de javamelody
-// un ptit tour sur monitis pour inspecter les chiffres obtenus
 
 Ajout d une regression sur les performances
 ===========================================
@@ -63,7 +62,6 @@ Ajout d une regression sur les performances
 Dans Person.java
 
     public String getFirstName() {
-       return this.firstName;
         try {
             TimeUnit.MILLISECONDS.sleep(100);
         } catch (InterruptedException e) {
