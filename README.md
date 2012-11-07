@@ -9,14 +9,16 @@ http://localhost:8080/org.springframework.samples.petclinic/
 
 deploiement sur ec2
 ===================
-ssh -i jsmadjakey.pem root@107.22.192.213
-git clone git://github.com/jsmadja/monitoring.git
-mvn clean tomcat:run
+    ssh -i jsmadjakey.pem root@107.22.192.213
+    git clone git://github.com/jsmadja/monitoring.git
+    mvn clean tomcat:run
+
 http://107.22.192.213:8080/org.springframework.samples.petclinic/
 
 configuration de monitis
 ========================
 creation d'un monitor ec2
+
 http://107.22.192.213:8080/org.springframework.samples.petclinic/vets
 
 configuration de javamelody
