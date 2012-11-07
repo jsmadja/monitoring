@@ -84,15 +84,11 @@ Configuration d'AspectJ
 
 Dans le pom.xml
 
-- Dépendance
-
     <dependency>
         <groupId>org.aspectj</groupId>
         <artifactId>aspectjrt</artifactId>
         <version>1.6.10</version>
     </dependency>
-
-- Plugin
 
     <plugin>
         <groupId>org.codehaus.mojo</groupId>
@@ -108,7 +104,8 @@ Dans le pom.xml
                 </goals>
             </execution>
         </executions>
-    </plugin>
+    </plugin>   
+
 
 Ajout d'un fichier Chrono.aj
 
