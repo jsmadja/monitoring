@@ -25,7 +25,7 @@ Dans le pom.xml
 
     <javamelody-version>1.41.0</javamelody-version>
 
-<dependency>
+    <dependency>
       <groupId>net.bull.javamelody</groupId>
       <artifactId>javamelody-core</artifactId>
       <version>${javamelody-version}</version>
@@ -33,7 +33,7 @@ Dans le pom.xml
 
 Dans le web.xml
 
-<filter>
+    <filter>
                 <filter-name>monitoring</filter-name>
                 <filter-class>net.bull.javamelody.MonitoringFilter</filter-class>
         </filter>
@@ -46,7 +46,7 @@ Dans le web.xml
         </listener>
 
 Dans applicationContext-hibernate.xml
-<prop key="hibernate.jdbc.factory_class">net.bull.javamelody.HibernateBatcherFactory</prop>
+    <prop key="hibernate.jdbc.factory_class">net.bull.javamelody.HibernateBatcherFactory</prop>
 
 Instant demo
 ============
@@ -107,13 +107,13 @@ Dans le pom.xml
 
 Ajout d'un fichier Chrono.aj
 
-package org.springframework.samples.petclinic;
+    package org.springframework.samples.petclinic;
 
-import org.apache.commons.lang.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+    import org.apache.commons.lang.StringUtils;
+    import org.slf4j.Logger;
+    import org.slf4j.LoggerFactory;
 
-public aspect Chrono {
+    public aspect Chrono {
 
     private static final Logger LOG = LoggerFactory.getLogger(Chrono.class);
 
@@ -132,7 +132,7 @@ public aspect Chrono {
                 LOG.info(prefix+" "+method+" "+duration+" ms");
         }
     }
-}
+    }
 
 // deploy sur ec2
 // etude des logs pour voir d ou vient le probleme
