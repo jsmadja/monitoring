@@ -49,6 +49,9 @@ Dans le web.xml
                 <listener-class>net.bull.javamelody.SessionListener</listener-class>
         </listener>
 
+Dans applicationContext-hibernate.xml
+<prop key="hibernate.jdbc.factory_class">net.bull.javamelody.HibernateBatcherFactory</prop>
+
 // affichage de javamelody
 
 // un ptit tour sur monitis pour inspecter les chiffres obtenus
