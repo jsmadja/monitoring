@@ -1,0 +1,61 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="org.springframework.samples.petclinic:war exploded">
+    <output-path>$PROJECT_DIR$/target/org.springframework.samples.petclinic-1.0.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="org.springframework.samples.petclinic/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="org.springframework.samples.petclinic" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: net.bull.javamelody:javamelody-core:1.41.0" />
+          <element id="library" level="project" name="Maven: org.jrobin:jrobin:1.5.9" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.context:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.asm:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.aop:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aopalliance:com.springsource.org.aopalliance:1.0.0" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.beans:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.core:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.expression:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.orm:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.jdbc:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.transaction:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.oxm:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.web.servlet:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.web:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:org.springframework.aspects:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:com.springsource.org.aspectj.weaver:1.6.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:com.springsource.slf4j.api:1.5.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:com.springsource.slf4j.org.apache.commons.logging:1.5.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:com.springsource.slf4j.log4j:1.5.6" />
+          <element id="library" level="project" name="Maven: org.apache.log4j:com.springsource.org.apache.log4j:1.2.15" />
+          <element id="library" level="project" name="Maven: org.apache.commons:com.springsource.org.apache.commons.dbcp:1.2.2.osgi" />
+          <element id="library" level="project" name="Maven: org.apache.commons:com.springsource.org.apache.commons.pool:1.5.3" />
+          <element id="library" level="project" name="Maven: org.hsqldb:com.springsource.org.hsqldb:1.8.0.9" />
+          <element id="library" level="project" name="Maven: org.hibernate:com.springsource.org.hibernate:3.3.2.GA" />
+          <element id="library" level="project" name="Maven: net.sourceforge.cglib:com.springsource.net.sf.cglib:2.2.0" />
+          <element id="library" level="project" name="Maven: org.antlr:com.springsource.antlr:2.7.6" />
+          <element id="library" level="project" name="Maven: org.apache.commons:com.springsource.org.apache.commons.collections:3.2.1" />
+          <element id="library" level="project" name="Maven: org.dom4j:com.springsource.org.dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: org.jboss.javassist:com.springsource.javassist:3.9.0.GA" />
+          <element id="library" level="project" name="Maven: org.objectweb.asm:com.springsource.org.objectweb.asm:1.5.3" />
+          <element id="library" level="project" name="Maven: javax.persistence:com.springsource.javax.persistence:1.0.0" />
+          <element id="library" level="project" name="Maven: com.oracle.toplink.essentials:com.springsource.oracle.toplink.essentials:2.0.0.b41-beta2" />
+          <element id="library" level="project" name="Maven: org.hibernate:com.springsource.org.hibernate.ejb:3.4.0.GA" />
+          <element id="library" level="project" name="Maven: org.hibernate:com.springsource.org.hibernate.annotations.common:3.3.0.ga" />
+          <element id="library" level="project" name="Maven: org.jboss.util:com.springsource.org.jboss.util:2.0.4.GA" />
+          <element id="library" level="project" name="Maven: edu.oswego.cs.concurrent:com.springsource.edu.oswego.cs.dl.util.concurrent:1.3.4" />
+          <element id="library" level="project" name="Maven: org.hibernate:com.springsource.org.hibernate.annotations:3.4.0.GA" />
+          <element id="library" level="project" name="Maven: org.apache.openjpa:com.springsource.org.apache.openjpa:1.1.0" />
+          <element id="library" level="project" name="Maven: net.sourceforge.serp:com.springsource.serp:1.13.1" />
+          <element id="library" level="project" name="Maven: org.apache.commons:com.springsource.org.apache.commons.lang:2.1.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:com.springsource.javax.servlet.jsp.jstl:1.2.0" />
+          <element id="library" level="project" name="Maven: org.apache.taglibs:com.springsource.org.apache.taglibs.standard:1.1.2" />
+          <element id="library" level="project" name="Maven: com.sun.syndication:com.springsource.com.sun.syndication:1.0.0" />
+          <element id="library" level="project" name="Maven: org.jdom:com.springsource.org.jdom:1.1.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
