@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd3ee783-33a9-4d4e-86b9-c29990b0e46d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/org_springframework_samples_petclinic_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/org_springframework_samples_petclinic_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/org.springframework.samples.petclinic.iml" afterPath="$PROJECT_DIR$/org.springframework.samples.petclinic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/springframework/samples/petclinic/Person.java" afterPath="$PROJECT_DIR$/src/main/java/org/springframework/samples/petclinic/Person.java" />
     </list>
     <ignored path="org.springframework.samples.petclinic.iws" />
@@ -73,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chrono.aj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Chrono.aj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/samples/petclinic/aspects/Chrono.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="37" selection-start="588" selection-end="589" vertical-scroll-proportion="0.5323741">
+            <state line="18" column="37" selection-start="588" selection-end="589" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,10 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Person.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/samples/petclinic/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
+            <state line="16" column="8" selection-start="316" selection-end="316" vertical-scroll-proportion="0.40697673">
               <folding />
             </state>
           </provider>
@@ -140,9 +136,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/applicationContext-hibernate.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/springframework/samples/petclinic/Person.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/springframework/samples/petclinic/aspects/Chrono.aj" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/samples/petclinic/Person.java" />
       </list>
     </option>
   </component>
@@ -521,13 +517,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/samples/petclinic/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="288" column="21" selection-start="9342" selection-end="9342" vertical-scroll-proportion="0.0">
@@ -537,7 +526,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/samples/petclinic/aspects/Chrono.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="588" selection-end="589" vertical-scroll-proportion="0.5323741">
+        <state line="18" column="37" selection-start="588" selection-end="589" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/samples/petclinic/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="316" selection-end="316" vertical-scroll-proportion="0.40697673">
           <folding />
         </state>
       </provider>
