@@ -8,6 +8,7 @@
           <element id="module-output" name="org.springframework.samples.petclinic" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.10" />
           <element id="library" level="project" name="Maven: net.bull.javamelody:javamelody-core:1.41.0" />
           <element id="library" level="project" name="Maven: org.jrobin:jrobin:1.5.9" />
           <element id="library" level="project" name="Maven: org.springframework:org.springframework.context:3.0.0.RELEASE" />
